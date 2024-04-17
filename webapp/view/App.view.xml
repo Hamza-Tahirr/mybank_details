@@ -1,18 +1,26 @@
 <mvc:View controllerName="com.sap.mybankdetails.controller.App"
     xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
     xmlns="sap.m">
-    <App id="app"> 
-    <Page id="page" title="My Bank Details....">
-        <content> 
-        <VBox id="vBox1">
-        <Title text="Account Details" id="AccDetails" level="H1"/>
-        <HBox id="hBox1">
-        <Label text="Bank Account Number : " id="bankAccNum" />
-        <Text text="012345****" id="bankAccVal" class="sapUismallMarginBegin" />
-        </HBox>
-        </VBox>
-         </content>
-         
-    </Page>
+    <App id="app">
+        <Page id="page" title="My Bank Details">
+            <content>
+                <VBox id="vBox1" class="sapUiSmallMargin">
+                    <Title text="Account Details" id="AccDetails" level="H1"/>
+                    <HBox id="hBox1">
+                        <Label text="Bank Account Number : " id="bankAccNum" />
+                        <Text text="012345****" id="bankAccVal" class="sapUiSmallMarginBegin" />
+                    </HBox>
+                    <HBox id="hBox2">
+                        <Label text="Account User Name : " id="userName" />
+                        <Text text="Hamza Tahir" id="userNameVal" class="sapUiSmallMarginBegin" />
+                    </HBox>
+                    <HBox id="hBox3">
+                        <Label text="IFS Random Code : " id="ifsCode" />
+                        <Text text="ABC123XYZ" id="ifsCodeVal" class="sapUiSmallMarginBegin" />
+                    </HBox>
+                </VBox>
+            </content>
+
+        </Page>
     </App>
 </mvc:View>
