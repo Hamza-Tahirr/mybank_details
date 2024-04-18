@@ -23,6 +23,11 @@ sap.ui.define([
                 this.moreBankDetails.then(function (oDialog) {
                     oDialog.open();
                 });
+            },
+
+            onCloseBankDetails: function () {
+                this.byId("moreBankDetails").close();
             }
+
         });
     });
