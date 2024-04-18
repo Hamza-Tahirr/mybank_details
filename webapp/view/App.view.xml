@@ -14,7 +14,7 @@
 
                 <core:Fragment id="bankDetailsfragment" fragmentName="com.sap.mybankdetails.view.fragments.BankDetails" type="XML"/>
 
-                <Button id="openBankDetails" type="Neutral" text="Find more Details"></Button>
+                <Button id="openBankDetails" type="Neutral" text="Find more Details" class="sapUiSmallMarginBegin" press=".onOpenBankDetails"/>
 
             </content>
 

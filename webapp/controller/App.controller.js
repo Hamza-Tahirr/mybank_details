@@ -10,6 +10,19 @@ sap.ui.define([
         return Controller.extend("com.sap.mybankdetails.controller.App", {
             onInit: function () {
 
+            },
+            onOpenBankDetails: function () {
+                //create dialog lazily
+                if (!this.moreBankDetails) {
+                    this.moreBankDetails = this.loadFragment(
+                        { key: "com.sap.mybankdetails.view.fragments.MoreDetails" }
+                    );
+
+                }
+
+                this.moreBankDetails.then(function (oDialog) {
+                    oDialog.open();
+                } );
             }
         });
     });
