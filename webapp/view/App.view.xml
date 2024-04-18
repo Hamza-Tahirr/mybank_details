@@ -12,15 +12,19 @@
 
             <content>
 
+                <!-- Bank Details Fragment  -->
 
-                <HBox id="hBox4">
-               
-                    <core:Fragment id="bankDetailsfragment" fragmentName="com.sap.mybankdetails.view.fragments.BankDetails" type="XML"/>
-
-                </HBox>
-
+                <core:Fragment id="bankDetailsfragment" fragmentName="com.sap.mybankdetails.view.fragments.BankDetails" type="XML"/>
+                <Panel id="pCards" expandable="true" headerText="Card Details" width="auto" class="sapUiResponsiveMargin">
+                    <content>
+                        <List id="myList" items="">
+                            <items>
+                                <StandardListItem id="card1" title="Master Card (123645872365237827)" description="Debit Card : Assigned on 23 July 2023" icon="sap-icon://credit-card" iconInset="false" highlight="Success" info="info" infoState="Error" infoStateInverted= "true" />
+                            </items>
+                        </List>
+                    </content>
+                </Panel>
             </content>
-
         </Page>
     </App>
 </mvc:View>
