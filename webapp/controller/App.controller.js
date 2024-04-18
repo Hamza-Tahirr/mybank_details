@@ -15,14 +15,14 @@ sap.ui.define([
                 //create dialog lazily
                 if (!this.moreBankDetails) {
                     this.moreBankDetails = this.loadFragment(
-                        { key: "com.sap.mybankdetails.view.fragments.MoreDetails" }
+                        { name: "com.sap.mybankdetails.view.fragments.MoreDetails" }
                     );
 
                 }
 
                 this.moreBankDetails.then(function (oDialog) {
                     oDialog.open();
-                } );
+                });
             }
         });
     });
