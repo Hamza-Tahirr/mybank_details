@@ -12,9 +12,12 @@
 
             <content>
 
-                <core:Fragment id="bankDetailsfragment" fragmentName="com.sap.mybankdetails.view.fragments.BankDetails" type="XML"/>
 
-                <Button id="openBankDetails" type="Neutral" text="{i18n>findMoreBtn}" class="sapUiSmallMarginBegin" press=".onOpenBankDetails"/>
+                <HBox id="hBox4">
+               
+                    <core:Fragment id="bankDetailsfragment" fragmentName="com.sap.mybankdetails.view.fragments.BankDetails" type="XML"/>
+
+                </HBox>
 
             </content>
 

@@ -32,7 +32,7 @@
         </VBox>
 
         <beginButton>
-            <Button id="closeBtn" text="{i18n>dialogClosebtn}" press=".onCloseBankDetails"/>
+            <Button id="closeBtn" text="Close" press=".onCloseBankDetails"/>
         </beginButton>
 
 
