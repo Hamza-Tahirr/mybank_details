@@ -2,17 +2,17 @@
     xmlns="sap.m">
 
     <VBox id="vBox1" class="sapUiSmallMargin">
-        <Title text="Account Details" id="AccDetails" level="H1"/>
+        <Title text="{i18n>accDetails}" id="AccDetails" level="H1"/>
         <HBox id="hBox1">
-            <Label text="Bank Account Number : " id="bankAccNum" />
+            <Label text="{i18n>accNum}" id="bankAccNum" />
             <Text text="012345****" id="bankAccVal" class="sapUiSmallMarginBegin" />
         </HBox>
         <HBox id="hBox2">
-            <Label text="Account User Name : " id="userName" />
+            <Label text="{i18n>accUser}" id="userName" />
             <Text text="Hamza Tahir" id="userNameVal" class="sapUiSmallMarginBegin" />
         </HBox>
         <HBox id="hBox3">
-            <Label text="IFS Random Code : " id="ifsCode" />
+            <Label text="{i18n>ifsCode}" id="ifsCode" />
             <Text text="ABC123XYZ" id="ifsCodeVal" class="sapUiSmallMarginBegin" />
         </HBox>
     </VBox>

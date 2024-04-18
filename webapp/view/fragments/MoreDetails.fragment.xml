@@ -2,37 +2,37 @@
     xmlns="sap.m">
 
 
-    <Dialog id="moreBankDetails" title="Confidential Details">
+    <Dialog id="moreBankDetails" title="{i18n>moreAccDetails}">
         <VBox id="vBox1" class="sapUiSmallMargin">
 
             <HBox id="hBox1">
-                <Label text="Bank Account Number : " id="bankAccNum" />
+                <Label text="{i18n>accNum}" id="bankAccNum" />
                 <Text text="012345****" id="bankAccVal" class="sapUiSmallMarginBegin" />
             </HBox>
             <HBox id="hBox2">
-                <Label text="Account User Name : " id="userName" />
+                <Label text="{i18n>accUser}" id="userName" />
                 <Text text="Hamza Tahir" id="userNameVal" class="sapUiSmallMarginBegin" />
             </HBox>
             <HBox id="hBox3">
-                <Label text="IFS Random Code : " id="ifsCode" />
+                <Label text="{i18n>ifsCode}" id="ifsCode" />
                 <Text text="ABC123XYZ" id="ifsCodeVal" class="sapUiSmallMarginBegin" />
             </HBox>
             <HBox id="hBox4">
-                <Label text="Address : " id="address" />
+                <Label text="{i18n>accAddress}" id="address" />
                 <Text text="123 Maple Street" id="addressVal" class="sapUiSmallMarginBegin" />
             </HBox>
             <HBox id="hBox5">
-                <Label text="City : " id="city" />
+                <Label text="{i18n>accCity}" id="city" />
                 <Text text="Springfield" id="cityVal" class="sapUiSmallMarginBegin" />
             </HBox>
             <HBox id="hBox6">
-                <Label text="Postal Code : " id="postalCode" />
+                <Label text="{i18n>accPostal}" id="postalCode" />
                 <Text text="54321" id="postalCodeVal" class="sapUiSmallMarginBegin" />
             </HBox>
         </VBox>
 
         <beginButton>
-            <Button id="closeBtn" text="Close" press=".onCloseBankDetails"/>
+            <Button id="closeBtn" text="{i18n>dialogClosebtn}" press=".onCloseBankDetails"/>
         </beginButton>
 
 
