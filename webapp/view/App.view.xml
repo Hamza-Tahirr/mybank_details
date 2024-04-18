@@ -3,10 +3,10 @@
     xmlns="sap.m"
     xmlns:core="sap.ui.core">
     <App id="app">
-        <Page id="page" title="My Bank Details">
+        <Page id="page" title="{i18n>appTitle}">
 
             <headerContent>
-                <Button id="demoBtn" type="Emphasized" text="Refresh"></Button>
+                <Button id="demoBtn" type="Emphasized" text="{i18n>home}"></Button>
 
             </headerContent>
 
@@ -14,7 +14,7 @@
 
                 <core:Fragment id="bankDetailsfragment" fragmentName="com.sap.mybankdetails.view.fragments.BankDetails" type="XML"/>
 
-                <Button id="openBankDetails" type="Neutral" text="Find more Details" class="sapUiSmallMarginBegin" press=".onOpenBankDetails"/>
+                <Button id="openBankDetails" type="Neutral" text="{i18n>findMoreBtn}" class="sapUiSmallMarginBegin" press=".onOpenBankDetails"/>
 
             </content>
 
