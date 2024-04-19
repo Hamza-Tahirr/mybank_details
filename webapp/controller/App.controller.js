@@ -49,7 +49,7 @@ sap.ui.define([
                 };
                 let oModel = new sap.ui.model.json.JSONModel();
                 oModel.setData(oData)
-                this.getView().setModel(oModel);
+                this.getView().setModel(oModel, "oBankDetails");
             },
             onOpenBankDetails: function () {
                 //create dialog lazily
