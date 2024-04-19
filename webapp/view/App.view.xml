@@ -20,8 +20,8 @@
                         <List id="myList" items="" width="50%">
                             <items>
                                 <StandardListItem id="card1" title="Master Card (123645872365237827)" description="Debit Card : Assigned on 23 July 2023" icon="sap-icon://credit-card" iconInset="false" highlight="Information" info="Active" infoState="Information" infoStateInverted= "true" />
-                                <StandardListItem id="card2" title="VISA (187363844365237827)" description="Credit Card : Assigned on 11 July 2023" icon="sap-icon://credit-card" iconInset="false" highlight="Error" info="Expired" infoState="Error" infoStateInverted= "true" />
-                                <StandardListItem id="card3" title="PayPak (109237837829937827)" description="Debit Card : Assigned on 17 August 2022" icon="sap-icon://credit-card" iconInset="false" highlight="Success" info="Active" infoState="Success" infoStateInverted= "true" />
+                                <!-- <StandardListItem id="card2" title="VISA (187363844365237827)" description="Credit Card : Assigned on 11 July 2023" icon="sap-icon://credit-card" iconInset="false" highlight="Error" info="Expired" infoState="Error" infoStateInverted= "true" />
+                                <StandardListItem id="card3" title="PayPak (109237837829937827)" description="Debit Card : Assigned on 17 August 2022" icon="sap-icon://credit-card" iconInset="false" highlight="Success" info="Active" infoState="Success" infoStateInverted= "true" /> -->
 
                             </items>
                         </List>
