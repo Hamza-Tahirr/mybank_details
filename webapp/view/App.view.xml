@@ -21,7 +21,7 @@
                             <items>
                                 <!-- Below is the example of aggregation binding and expression binding-->
                                 <StandardListItem id="card1" 
-                                title="{oBankDetails>cardcompany} {oBankDetails>cardnumber} " 
+                                title="{oBankDetails>cardcompany} ({oBankDetails>cardnumber}) " 
                                 description="{oBankDetails>cardtype} {oBankDetails>assignmentdate}" 
                                 icon="sap-icon://credit-card" 
                                 iconInset="false" 
