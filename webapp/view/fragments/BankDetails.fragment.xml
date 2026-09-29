@@ -9,10 +9,10 @@
         </HBox>
         <HBox id="hBox2">
             <Label text="Account User Name : " id="userName" />
-            <Text text="Hamza Tahir" id="userNameVal" class="sapUiSmallMarginBegin" />
+            <Text text="John Doe" id="userNameVal" class="sapUiSmallMarginBegin" />
         </HBox>
         <HBox id="hBox3">
-            <Label text="IFS Random Code : " id="ifsCode" />
+            <Label text="IFSC Code : " id="ifsCode" />
             <Text text="ABC123XYZ" id="ifsCodeVal" class="sapUiSmallMarginBegin" />
         </HBox>
     </VBox>
