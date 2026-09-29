@@ -54,7 +54,7 @@ sap.ui.define([
 							"comsapmybankdetails-display": {
 								"semanticObject": "comsapmybankdetails",
 								"action": "display",
-								"description": "An SAP Fiori application.",
+								"description": "Shows sample bank account details",
 								"title": "My Bank Details",
 								"signature": {
 									"parameters": {}

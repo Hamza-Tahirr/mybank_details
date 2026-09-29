@@ -2,7 +2,7 @@
   "name": "mybank_details",
   "version": "0.0.1",
   "private": true,
-  "description": "An SAP Fiori application.",
+  "description": "SAPUI5 freestyle app that shows sample bank account details",
   "keywords": [
     "ui5",
     "openui5",
